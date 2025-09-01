@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multilingual Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 1rem; }
+    #messages { border: 1px solid #ddd; height: 300px; overflow: auto; padding: .5rem; }
+    .msg { margin: .25rem 0 }
+    .user { font-weight: 600 }
+  </style>
+</head>
+<body>
+  <h1>Multilingual Chatbot</h1>
+  <label>Language: <select id="lang"><option value="en">English</option><option value="hi">Hindi</option><option value="ja">Japanese</option></select></label>
+  <div id="messages"></div>
+  <textarea id="input" rows="3" style="width:100%"></textarea>
+  <button id="send">Send</button>
+  <script src="/static/app.js"></script>
+</body>
+</html>
